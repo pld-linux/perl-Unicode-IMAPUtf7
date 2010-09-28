@@ -15,7 +15,7 @@ Group:		Development/Languages/Perl
 # Source0:	http://search.cpan.org/CPAN/authors/id/F/FA/FABPOT/%{pdir}-%{pnam}-%{version}.tar.gz
 # repackaged with proper permissions
 Source0:	%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	7712fb3cfb90cc847c095b4d19cf0809
+# Source0-md5:	06ec185c4b0b77a00e5a11fdff532fde
 URL:		http://search.cpan.org/dist/Unicode-IMAPUtf7/
 BuildRequires:	perl-Unicode-String
 BuildRequires:	perl-devel >= 1:5.8.0
