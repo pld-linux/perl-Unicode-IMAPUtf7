@@ -34,9 +34,7 @@ modified UTF-7 encoding is defined in RFC2060 (section 5.1.3).
 %build
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
-%{__make} \
-	CC="%{__cc}" \
-	OPTIMIZE="%{rpmcflags}"
+%{__make}
 
 %{?with_tests:%{__make} test}
 
