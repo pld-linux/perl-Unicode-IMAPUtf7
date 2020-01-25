@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Unicode
 %define		pnam	IMAPUtf7
 Summary:	Unicode::IMAPUtf7 - extension to deal with IMAP UTF7
